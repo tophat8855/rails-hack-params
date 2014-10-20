@@ -3,12 +3,12 @@ default: &default
 
 development:
   <<: *default
-  database: rails-template-01-development
+  database: rails-hack-params-development
 
 test:
   <<: *default
-  database: rails-template-01-test
+  database: rails-hack-params-test
 
 production:
   <<: *default
-  database: rails-template-01-production
+  database: rails-hack-params-production
